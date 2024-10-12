@@ -1,0 +1,140 @@
+body{
+    /* font-family: "SFProDisplay", Arial, sans-serif; */
+    background-color: #000; 
+}
+#main{
+}
+/* begin navBar */
+#navbar{
+    background-color: black;
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.add_navBar{
+    width: 1180px;
+    display: flex;
+    align-content: center;
+}
+
+.logo_navBar {
+    align-content: center;
+    cursor: pointer;
+}
+
+.logo_navBar img{
+    width: 125px;
+    height: 30px;
+}
+
+.content_navBar{
+    color: white;
+    display: flex;
+    font-size: 19px;
+}
+
+.content_navBar ul{
+    color: white;
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+
+.content_navBar ul li{
+    padding-right: 20px;
+}
+
+.content_navBar ul li:hover{
+    color: #f89406;
+}
+
+.last_navBar{
+    color: white;
+    display: flex;
+}
+.last_navBar li{
+    align-content: center;
+    list-style-type: none;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.last_navBar li:hover{
+    color: #f89406;
+}
+
+.last_navBar button {
+    margin: 9px 0px;
+    border-radius: 10px;
+    background-color: #ef3d1a;
+    color: white;
+    padding: 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.wallet_navBar{
+    padding-right: 10px;
+}
+
+.last_navBar li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.last_navBar li a:hover{
+    color: #f89406;
+    
+}
+/* end navbar*/
+
+/* begin content */
+#content{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.header img{
+    width: 1180px;
+}
+
+.slider_header img{
+    width: 1180px;
+    height: 600px;
+    margin-top: 15px;
+}
+
+.header_1 img{
+    width: 1180px;
+    margin-top: 50px;
+}
+
+.movies_content{
+    width: 1180px;
+    color: white;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.movies_content a{
+    color: white;
+    text-decoration: none;
+    align-content: center;
+}
+
+.movies_1_content{
+    display: grid;
+    color: #fff;
+}
+
+.movies_1_content img{
+    width: 350px;
+    height: 198px;
+}
+/* end content */

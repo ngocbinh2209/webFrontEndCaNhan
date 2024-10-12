@@ -1,0 +1,159 @@
+body{
+    margin: 2px;
+}
+
+#main{
+}
+/* <!-- begin header --> */
+#header{
+    height: 80px;
+    background: url('../img/image.png') top center / cover no-repeat;
+}
+
+.full-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+.logo-header{
+    width: 25%;
+}
+
+.logo-header img{
+    height: 74px;
+}
+
+.search-header{
+    display: flex;
+    max-height: 100%;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.search-header input{
+    border-radius: 25px;
+    font-size: 18px;
+    width: 90%;
+    padding: 6px 40px 6px 20px;
+}
+
+.search-header input::placeholder{
+    font-size: 14px;
+}
+
+.searchIcon-header{
+    width: 90%;
+} 
+
+.search-header .fa-magnifying-glass{
+    position: absolute;
+    right: 95px; /* Điều chỉnh vị trí icon */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px; /* Điều chỉnh kích thước icon */
+    color: #5c5c5c; /* Màu sắc cho icon */
+}
+.shoppingCart-header{
+    width: 25%;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;
+}
+
+.shoppingCart-content button{
+    font-size: 25px;
+    border-radius: 15px;
+    width: 105px;
+    height: 32px;
+    display: flex; 
+    /* justify-content: space-between; Để icon và chữ nằm cách nhau */
+    align-items: center; /* Căn giữa nội dung trong button */
+    padding: 0 10px; 
+}
+
+.shoppingCart-content button:hover{
+    background-color: aquamarine;
+}
+
+.shoppingCart-content button a {
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
+.shoppingCart-content button i{
+    font-size: 12px;
+}
+/* <!-- end header --> */
+
+/* <!-- begin navBar --> */
+
+#navBar{
+    background-color: #fa7300;
+}
+
+.content-navBar{
+    display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 35px;
+}
+ul.nav-navBar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-navBar li{
+    padding-left: 26px;
+    list-style-type: none;
+    font-size: 18px;
+    color:white;
+}
+/* <!-- end navBar --> */
+
+/* <!-- begin Content --> */
+#content{
+}
+
+.banner-conntent img {
+    width: 100%;
+} 
+
+.intro-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introLike-content{
+    display: flex;
+    border: 1px #b3adad solid;
+    align-items: center;
+    padding: 0px 8px;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.introLike-content img{
+    width: 70px;
+    height: 70px;
+}
+
+.introTitle-Content{
+    padding: 0px 10px;
+}
+/* <!-- end Content --> */
+.banner-Product-content{
+    background: url('../img/bannerNheNhang.png') top center / cover no-repeat;
+    /* margin-top: 46px; */
+    padding-top: 40%;
+
+}
+/* .banner-Product-content img{
+    width: 100%;
+    height: 500px;
+} */
